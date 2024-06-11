@@ -98,7 +98,7 @@ Function Send-MailMessageAsGraphApp {
             InternetMessageHeaders = @(
                 @{
                     Name  = "X-Mailer"
-                    Value = (ThisModule).Name
+                    Value = "SendMailMessageAsGraphApp"
                 }
             )
         }
